@@ -14035,8 +14035,9 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(".bestsellers-slider").slick({
   autoplay: false,
   rows: 0,
   slidesToShow: 1,
-  infinite: true,
-  appendDots: jquery__WEBPACK_IMPORTED_MODULE_0___default()(".bestsellers-slider__thumbnails")
+  infinite: false,
+  prevArrow: jquery__WEBPACK_IMPORTED_MODULE_0___default()(".bestsellers-slider__nav-left"),
+  nextArrow: jquery__WEBPACK_IMPORTED_MODULE_0___default()(".bestsellers-slider__nav-right")
 });
 
 /***/ })

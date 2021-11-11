@@ -5,7 +5,7 @@
 @import "blocks/_bestsellers";
 @import "media/_bestsellers_media";
 @import "blocks/_buttons";
-
+@import "media/_buttons_media";
 
 * {
   margin: 0;
@@ -44,9 +44,9 @@
   }
 }
 
-@media (min-width: 1027.98px) {
+@media (min-width: 1279.98px) {
   .container {
     width: 100%;
-    padding: 0 55px;
+    padding: 0 45px;
   }
 }

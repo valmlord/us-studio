@@ -10,6 +10,12 @@
     color: $black;
   }
 
+  &-slider {
+    &__nav {
+      display: none;
+    }
+  }
+
   &-card {
     border: 1px solid $grey;
     border-radius: 5px;
@@ -25,6 +31,7 @@
     &__labels {
       font-family: 'GothamPro', sans-serif;
       font-size: 13px;
+      line-height: 15px;
       font-weight: 400;
       z-index: 2;
       display: flex;
