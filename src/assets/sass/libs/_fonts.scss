@@ -51,6 +51,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-left:before {
+  content: "\e904";
+  color: #888;
+}
+
+.icon-right:before {
+  content: "\e905";
+  color: #888;
+}
+
 .icon-menu:before {
   content: "\e900";
 }

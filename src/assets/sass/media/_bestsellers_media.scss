@@ -1,0 +1,86 @@
+@media (min-width: 767.98px) {
+  .bestsellers {
+    &-title {
+      font-size: 31px;
+      font-family: 'GothamPro', sans-serif;
+      font-weight: 300;
+      padding-top: 18px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      .icon-arrow {
+        margin-left: 10px;
+      }
+    }
+
+    &-card {
+      margin-top: 25px;
+      padding: 20px;
+      position: relative;
+      margin-right: 30px;
+      max-width: 247px;
+      justify-content: space-between;
+
+      &__labels {
+        &-new {
+          display: none;
+        }
+      }
+
+      &__description {
+        width: 100%;
+
+        &-product {
+          font-size: 15px;
+        }
+      }
+
+      &__price {
+        width: 57%;
+
+        &-old {
+          display: none;
+        }
+      }
+
+      &__options {
+        order: 4;
+        align-items: end;
+        width: 33%;
+        margin-bottom: 10px;
+      }
+
+      &__price {
+
+        &-new {
+          font-size: 19px;
+          line-height: 23px;
+          color: $black;
+        }
+
+      }
+    }
+  }
+}
+
+@media (min-width: 1027.98px) {
+  .bestsellers {
+    &-card {
+
+      &__labels {
+        flex-direction: row;
+
+        &-new {
+          display: flex;
+        }
+
+        &-best {
+          margin-top: 0px;
+          margin-left: 10px;
+        }
+      }
+
+    }
+  }
+}

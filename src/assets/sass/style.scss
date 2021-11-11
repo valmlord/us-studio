@@ -3,6 +3,7 @@
 @import "libs/_fonts";
 @import "base/_variables";
 @import "blocks/_bestsellers";
+@import "media/_bestsellers_media";
 @import "blocks/_buttons";
 
 
@@ -33,5 +34,19 @@
 
 .container {
   width: 100%;
-  padding: 0 20px;
+  padding: 0 15px;
+}
+
+@media (min-width: 767.98px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 1027.98px) {
+  .container {
+    width: 100%;
+    padding: 0 55px;
+  }
 }

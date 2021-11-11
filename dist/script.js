@@ -14030,13 +14030,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 jquery__WEBPACK_IMPORTED_MODULE_0___default()(".bestsellers-slider").slick({
-  arrows: false,
+  arrows: true,
   dots: false,
   autoplay: false,
   rows: 0,
   slidesToShow: 1,
-  infinite: true //appendDots: $(".promo-slider__thumbnails"),
-
+  infinite: true,
+  appendDots: jquery__WEBPACK_IMPORTED_MODULE_0___default()(".bestsellers-slider__thumbnails")
 });
 
 /***/ })
